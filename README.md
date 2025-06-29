@@ -37,5 +37,5 @@ CarRentalX is a full-stack web application that allows users to browse, rent, an
 
 ### 📁 Clone the Repo
 ```bash
-git clone https://github.com/yourusername/CarRentalX.git
+git clone https://github.com/sharma2612/car_rental.git
 cd CarRentalX
