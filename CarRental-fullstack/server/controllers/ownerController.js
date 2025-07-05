@@ -5,7 +5,7 @@ import User from "../models/User.js";
 import fs from "fs";
 
 
-// API to Change Role of User
+ // API to Change Role of User
 export const changeRoleToOwner = async (req, res)=>{
     try {
         const {_id} = req.user;
