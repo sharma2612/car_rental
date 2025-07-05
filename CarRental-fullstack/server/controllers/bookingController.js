@@ -37,6 +37,7 @@ export const checkAvailabilityOfCar = async (req, res)=>{
     }
 }
 
+
 // API to Create Booking
 export const createBooking = async (req, res)=>{
     try {
