@@ -3,7 +3,6 @@ import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import Car from "../models/Car.js";
 
-
  // Generate JWT Token
 const generateToken = (userId)=>{
     const payload = userId;
@@ -35,7 +34,7 @@ export const registerUser = async (req, res)=>{
     }
 }
 
-// Login User 
+// Login User
 export const loginUser = async (req, res)=>{
     try {
         const {email, password} = req.body
