@@ -9,9 +9,7 @@ import { motion } from 'motion/react'
 const CarDetails = () => {
 
   const {id} = useParams()
-
   const {cars, axios, pickupDate, setPickupDate, returnDate, setReturnDate} = useAppContext()
-
   const navigate = useNavigate()
   const [car, setCar] = useState(null)
   const currency = import.meta.env.VITE_CURRENCY
