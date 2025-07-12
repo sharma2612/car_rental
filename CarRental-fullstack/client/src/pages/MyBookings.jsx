@@ -99,6 +99,7 @@ const MyBookings = () => {
       
     </motion.div>
   )
+
 }
 
 export default MyBookings
